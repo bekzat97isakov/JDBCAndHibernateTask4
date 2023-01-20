@@ -11,13 +11,15 @@ public class UserDaoHibernateImpl implements UserDao {
     }
 
     @Override
-    public void createUsersTable() {
+    public String createUsersTable() {
 
+        return null;
     }
 
     @Override
-    public void dropUsersTable() {
+    public String dropUsersTable() {
 
+        return null;
     }
 
     @Override
